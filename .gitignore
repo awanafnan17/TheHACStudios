@@ -1,0 +1,22 @@
+# Generated site and local tools
+dist/
+node_modules/
+__pycache__/
+*.pyc
+.DS_Store
+# Never publish production or private configuration
+.env
+.env.*
+!.env.example
+wp-config.php
+*.sql
+*.sqlite*
+*.db
+*.log
+*.pem
+*.key
+*.zip
+*_credentials*
+*LOGIN*
+_backups/
+_prod_config/

@@ -1,0 +1,133 @@
+/**
+ * Theme Name:     Esthetic Child
+ * Author:         Jegtheme
+ * Template:       esthetic
+ * Text Domain:	   esthetic-child
+ * Description:    Esthetic is a modern and clean Gutenverse theme for beautiful Wedding Photography Portfolio Gallery website or any other related business. Esthetic is the ideal platform for creating a professional, visually striking website that communicates reliability, expertise, and inspires trust in your services.
+ * Theme URI:      https://fse.jegtheme.com/esthetic/
+ * Author URI:     https://support.jegtheme.com/
+ * Version:        1.0.0
+ * License:        GNU General Public License v3 or later.
+ * License URI:    https://www.gnu.org/licenses/gpl-3.0.html
+ * Tags:           block-patterns,custom-logo,custom-menu,editor-style,full-site-editing,featured-images
+ */
+
+/* HAC Studios Social Buttons */
+.guten-element.guten-social-icon a {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 44px !important;
+    height: 44px !important;
+    border-radius: 50% !important;
+    border: 1px solid rgba(255, 255, 255, 0.4) !important;
+    background: transparent !important;
+    color: #ffffff !important;
+    transition: all 0.3s ease !important;
+    text-decoration: none !important;
+}
+
+.guten-element.guten-social-icon a svg {
+    display: block !important;
+    width: 18px !important;
+    height: 18px !important;
+    fill: currentColor !important;
+    transition: transform 0.3s ease, fill 0.3s ease !important;
+}
+
+.guten-element.guten-social-icon a:hover {
+    background: #ffffff !important;
+    border-color: #ffffff !important;
+    color: #000000 !important;
+    transform: translateY(-2px) !important;
+}
+
+.guten-element.guten-social-icon a:hover svg {
+    fill: #000000 !important;
+}
+
+/* Ensure footer gallery items display with sharp proportions */
+.guten-gallery .gallery-item-wrap .thumbnail-wrap img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    display: block !important;
+}
+
+/* HAC Featured Film Modal */
+.hac-video-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 999999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.35s ease, visibility 0.35s ease;
+}
+
+.hac-video-modal-overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.hac-video-modal-backdrop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(10, 10, 10, 0.92);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+}
+
+.hac-video-modal-container {
+    position: relative;
+    z-index: 2;
+    width: 90%;
+    max-width: 1000px;
+    background: #000;
+    border-radius: 6px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.7);
+    overflow: hidden;
+}
+
+.hac-video-modal-close {
+    position: absolute;
+    top: -45px;
+    right: 0;
+    background: transparent;
+    border: none;
+    color: #ffffff;
+    font-size: 36px;
+    line-height: 1;
+    cursor: pointer;
+    padding: 5px 10px;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.hac-video-modal-close:hover {
+    color: #cccccc;
+    transform: scale(1.1);
+}
+
+.hac-video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+    background: #000;
+}
+
+.hac-video-wrapper video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}

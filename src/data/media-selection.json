@@ -1,0 +1,190 @@
+{
+  "brand": "HAC Studios",
+  "couple": {
+    "name": "Abdulrehman & Zainsih",
+    "location": "Editorial Wedding Collection",
+    "date_label": "Wedding Film & Photography",
+    "hero_video": "/assets/videos/wedding-film-1080p.mp4",
+    "film_video": "/assets/videos/wedding-film-1080p.mp4",
+    "poster": "/assets/videos/video-poster.webp",
+    "cover_image": "/assets/images/portfolio/c01-01-large.webp"
+  },
+  "roles": {
+    "hero_desktop": {
+      "image": "/assets/images/portfolio/c01-01-large.webp",
+      "alt": "HAC Studios Luxury Wedding Photography & Cinematography",
+      "video": "/assets/videos/wedding-film-1080p.mp4",
+      "poster": "/assets/videos/video-poster.webp"
+    },
+    "hero_home_2": {
+      "image": "/assets/images/portfolio/fe-0771-large.webp",
+      "alt": "HAC Studios Cinematic Wedding Films",
+      "video": "/assets/videos/wedding-film-1080p.mp4",
+      "poster": "/assets/videos/video-poster.webp"
+    },
+    "about_main": {
+      "image": "/assets/images/portfolio/fe-0466-large.webp",
+      "thumb": "/assets/images/portfolio/fe-0466-card.webp",
+      "alt": "HAC Studios Editorial Wedding Storytelling"
+    },
+    "about_secondary": {
+      "image": "/assets/images/portfolio/fe-0528-large.webp",
+      "thumb": "/assets/images/portfolio/fe-0528-card.webp",
+      "alt": "Bridal Portraiture and Wedding Emotion"
+    },
+    "services_cover": {
+      "image": "/assets/images/portfolio/fe-0500-large.webp",
+      "thumb": "/assets/images/portfolio/fe-0500-card.webp",
+      "alt": "Comprehensive Wedding Photography and Cinematography"
+    },
+    "pricing_cover": {
+      "image": "/assets/images/portfolio/c01-08-large.webp",
+      "thumb": "/assets/images/portfolio/c01-08-card.webp",
+      "alt": "HAC Studios Wedding Coverage Packages"
+    },
+    "team_cover": {
+      "image": "/assets/images/portfolio/c01-03-large.webp",
+      "thumb": "/assets/images/portfolio/c01-03-card.webp",
+      "alt": "HAC Studios Creative Team"
+    },
+    "contact_cover": {
+      "image": "/assets/images/portfolio/fe-0777-large.webp",
+      "thumb": "/assets/images/portfolio/fe-0777-card.webp",
+      "alt": "Book Your Wedding with HAC Studios"
+    },
+    "faq_cover": {
+      "image": "/assets/images/portfolio/c01-11-large.webp",
+      "thumb": "/assets/images/portfolio/c01-11-card.webp",
+      "alt": "Frequently Asked Questions"
+    }
+  },
+  "portfolio_items": [
+    {
+      "id": "abdulrehman-zainsih",
+      "title": "Abdulrehman & Zainsih",
+      "category": "Wedding Story & Film",
+      "category_slug": "wedding",
+      "image": "/assets/images/portfolio/c01-01-card.webp",
+      "large": "/assets/images/portfolio/c01-01-large.webp",
+      "alt": "Abdulrehman & Zainsih Wedding Shoot",
+      "url": "/portfolio-story/",
+      "tag": "Featured Film"
+    },
+    {
+      "id": "editorial-bride-01",
+      "title": "The Golden Radiance",
+      "category": "Bridal Editorial",
+      "category_slug": "bride",
+      "image": "/assets/images/portfolio/fe-0480-card.webp",
+      "large": "/assets/images/portfolio/fe-0480-large.webp",
+      "alt": "High-fashion bridal editorial",
+      "url": "/portfolio-story/",
+      "tag": "Bridal"
+    },
+    {
+      "id": "dramatic-veil",
+      "title": "Veil Silhouette & Grace",
+      "category": "Bridal Portrait",
+      "category_slug": "bride",
+      "image": "/assets/images/portfolio/fe-0528-card.webp",
+      "large": "/assets/images/portfolio/fe-0528-large.webp",
+      "alt": "Dramatic veil silhouette portrait",
+      "url": "/portfolio-story/",
+      "tag": "Portrait"
+    },
+    {
+      "id": "the-intimate-glance",
+      "title": "Sunset Vows & Romance",
+      "category": "Couple Session",
+      "category_slug": "couple",
+      "image": "/assets/images/portfolio/c01-07-card.webp",
+      "large": "/assets/images/portfolio/c01-07-large.webp",
+      "alt": "Golden hour aesthetic couple portrait",
+      "url": "/portfolio-story/",
+      "tag": "Couple"
+    },
+    {
+      "id": "heritage-craft",
+      "title": "Heirloom Jewels & Mehndi",
+      "category": "Editorial Details",
+      "category_slug": "wedding",
+      "image": "/assets/images/portfolio/fe-0682-card.webp",
+      "large": "/assets/images/portfolio/fe-0682-large.webp",
+      "alt": "Artisan gold jewelry close-up",
+      "url": "/portfolio-story/",
+      "tag": "Detail"
+    },
+    {
+      "id": "eternal-steps",
+      "title": "Grand Barat & Celebration",
+      "category": "Wedding Story",
+      "category_slug": "wedding",
+      "image": "/assets/images/portfolio/fe-0488-card.webp",
+      "large": "/assets/images/portfolio/fe-0488-large.webp",
+      "alt": "Grand baraat arrival & ambiance",
+      "url": "/portfolio-story/",
+      "tag": "Wedding"
+    },
+    {
+      "id": "royal-poise",
+      "title": "Modern Bridal Couture",
+      "category": "Bridal Portrait",
+      "category_slug": "bride",
+      "image": "/assets/images/portfolio/fe-0500-card.webp",
+      "large": "/assets/images/portfolio/fe-0500-large.webp",
+      "alt": "Modern luxury bridal styling",
+      "url": "/portfolio-story/",
+      "tag": "Portrait"
+    },
+    {
+      "id": "cinematic-vows",
+      "title": "Vintage Departure & Rukhsati",
+      "category": "Cinematic Story",
+      "category_slug": "cinematic",
+      "image": "/assets/images/portfolio/fe-0777-card.webp",
+      "large": "/assets/images/portfolio/fe-0777-large.webp",
+      "alt": "Rukhsati luxury vintage getaway",
+      "url": "/portfolio-story/",
+      "tag": "Cinematic"
+    }
+  ],
+  "selected_frames": [
+    {"image": "/assets/images/portfolio/c01-01-card.webp", "alt": "Romantic garden couple"},
+    {"image": "/assets/images/portfolio/fe-0480-card.webp", "alt": "High-fashion bridal look"},
+    {"image": "/assets/images/portfolio/fe-0528-card.webp", "alt": "Dramatic veil silhouette"},
+    {"image": "/assets/images/portfolio/fe-0762-card.webp", "alt": "Spotlight nikah ceremony"},
+    {"image": "/assets/images/portfolio/c01-07-card.webp", "alt": "Sunset couple embrace"},
+    {"image": "/assets/images/portfolio/fe-0682-card.webp", "alt": "Intricate gold jewelry detail"},
+    {"image": "/assets/images/portfolio/fe-0777-card.webp", "alt": "Luxury vintage getaway"},
+    {"image": "/assets/images/portfolio/fe-0798-card.webp", "alt": "Starlight celebration"}
+  ],
+  "stories": [
+    {
+      "id": "abdulrehman-zainsih-story",
+      "title": "Abdulrehman & Zainsih: A Celebration of Light & Tradition",
+      "date": "Featured Story",
+      "category": "Wedding Film & Photography",
+      "excerpt": "A timeless visual story documenting the vibrant emotions, intricate heritage details and unforgettable moments of celebration.",
+      "image": "/assets/images/portfolio/c01-01-card.webp",
+      "url": "/story/"
+    },
+    {
+      "id": "the-art-of-bridal-portraits",
+      "title": "The Art of Natural Light in Bridal Portraiture",
+      "date": "Editorial Journal",
+      "category": "Behind the Lens",
+      "excerpt": "How HAC Studios approaches bridal portrait sessions with an editorial eye, capturing effortless beauty and authentic emotion.",
+      "image": "/assets/images/portfolio/fe-0480-card.webp",
+      "url": "/story/"
+    },
+    {
+      "id": "cinematic-storytelling-guide",
+      "title": "Crafting a Cinematic Wedding Film That Lasts Generations",
+      "date": "Film Insights",
+      "category": "Cinematography",
+      "excerpt": "Exploring the rhythm, sound design and visual framing that transform real wedding moments into an heirloom cinematic film.",
+      "image": "/assets/images/portfolio/fe-0771-card.webp",
+      "url": "/story/"
+    }
+  ]
+}
