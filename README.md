@@ -2,7 +2,7 @@
 
 # HAC Studios
 
-### Photography, cinematography, and an editorial web experience
+### Wedding photography, film, and the code behind both site versions
 
 [![Python](https://img.shields.io/badge/Static_build-Python_3-3776AB?logo=python&logoColor=white)](src/build.py)
 [![JavaScript](https://img.shields.io/badge/Frontend-Vanilla_JavaScript-F7DF1E?logo=javascript&logoColor=black)](src/assets/js/main.js)
@@ -16,7 +16,7 @@
 
 HAC Studios is a wedding photography and cinematography portfolio. This repository documents two stages of the project: a custom, 15-route static website built with Python, HTML, CSS, and JavaScript; and the custom child-theme code used in the later WordPress/Gutenverse implementation.
 
-The site puts visual storytelling first: full-screen wedding films, editorial image layouts, service information, stories, and a clear path to making an inquiry.
+Visitors can browse full-screen wedding films, editorial image layouts, services, stories, and the inquiry page.
 
 > **Demo scope:** the live link points to the existing WordPress website. The locally runnable static version is an earlier implementation and is not an exact export of the current production site. Its booking form is a clearly labelled interface demonstration; it does not send messages or store submissions.
 
@@ -24,7 +24,7 @@ The site puts visual storytelling first: full-screen wedding films, editorial im
 
 | Area | Implemented behavior |
 |---|---|
-| Cinematic hero | Muted background video, poster fallback, and film playback in a modal |
+| Homepage film | Muted background video, poster fallback, and film playback in a modal |
 | Editorial portfolio | Image-led project cards, alternate portfolio layouts, and a featured wedding story |
 | Navigation | Sticky header, desktop menus, mobile drawer, and submenu accordions |
 | Motion | IntersectionObserver reveals, CSS animation, and reduced-motion styling |
@@ -81,7 +81,7 @@ See [architecture](docs/ARCHITECTURE.md) for how both implementations fit togeth
 
 ## Validation and limitations
 
-The public snapshot builds all 15 HTML routes successfully. Internal assets and route references are checked against the generated output. The static form does not have a backend; social placeholders and content should be reviewed before adapting the preview for another business. No claim is made that this snapshot reproduces the production WordPress database or its editor state.
+This release builds all 15 HTML routes successfully and checks internal assets and route references against the generated output. The static form has no backend. Review the social placeholders and content before adapting the preview for another business. This source does not reproduce the production WordPress database or editor state.
 
 ## Attribution and content
 

@@ -2,7 +2,7 @@
 
 ## Two implementation stages
 
-The static version is a reproducible Python build. The newer live deployment uses WordPress, Esthetic, and Gutenverse. They share a visual/business direction but do not share a runtime. The repository does not pretend that the static build is a WordPress export.
+The static version is a reproducible Python build. The newer live deployment uses WordPress, Esthetic, and Gutenverse. They share the same business and visual direction but do not share a runtime. The static build is not presented as a WordPress export.
 
 ```mermaid
 flowchart LR
@@ -38,7 +38,7 @@ The frontend is vanilla JavaScript. A passive scroll handler changes header styl
 
 ## WordPress child theme
 
-`functions.php` registers WordPress hooks to enqueue parent/child styles, redirect legacy routes, render crisp SVG social icons, and append an accessible-labelled video modal with escape-key support. Its video points to a WordPress uploads path that must be provisioned on the target installation.
+`functions.php` registers WordPress hooks to enqueue parent and child styles, redirect legacy routes, render SVG social icons, and append an accessible video modal with Escape-key support. Its video points to a WordPress uploads path that must be provisioned on the target installation.
 
 `style.css` defines the child-theme identity and styles social buttons, gallery image fitting, and the featured-film overlay. The parent theme and Gutenverse plugin must be installed separately. Page content, block layouts, media IDs, and production settings live in WordPress and are not reconstructed from these two files.
 
